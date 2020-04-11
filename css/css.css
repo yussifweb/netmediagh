@@ -1,0 +1,638 @@
+body{
+    background-color: #222;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/* Header **/
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background:#35424a;
+    color:#ffffff;
+    min-height:70px;
+    border-bottom:#2cf3ae 6px solid;
+  }
+
+  #header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+  
+  header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+  }
+  
+  header li{
+    display:inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding{
+    float:left;
+    font-size: 1.4rem;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  header #branding h1{
+    margin:0;
+  }
+  
+  header nav{
+    float:right;
+    margin-top:10px;
+  }
+  
+  header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
+  }
+  
+  header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+  }
+
+  #cont{
+    background-color: #17f7ca;
+    border-radius: 10px;
+  }
+
+  #cont a{
+      text-decoration: none;
+      font-size: 1.4rem;
+      color: crimson;
+      font-weight: bold;
+  }
+
+  #cont:hover{
+      transform: scale(1.1);
+  }
+
+ main{
+     padding: 10px;
+     margin-top: 5rem;
+ } 
+
+ header + main{
+    padding-top: 10px;
+ }
+
+.home{
+    background-image: url(https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) ; 
+    background-size: cover;
+    height: 600px; 
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    line-height: 5px;
+    background-color:white;
+    opacity: 80%;
+    border: linen 5px solid;
+    border-radius: 7px;
+    padding: 4rem;
+    margin-top: 2rem;
+}    
+
+#home{
+    padding-top: 3rem;
+}
+
+#home p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    font-weight: 550;
+    font-style: italic;  
+}
+
+#home h2{
+    font-family: 'Spicy Rice', cursive;
+    font-size: 600%;
+}
+
+#home h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 250%;
+    font-weight: 550;
+    font-style: italic;
+    line-height: 45px;
+}
+
+.news{
+    background-color: rgb(86, 85, 85);
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+#mail{
+    float: left;
+    margin: auto;    
+}
+
+#form{
+    float: right;
+    text-align: center;
+}
+
+#form input{
+    padding-left: 5px;
+    font-weight: 100%;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+}
+
+#submit{
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: thistle;
+}
+
+.fa{
+    font-size: 5rem !important;
+    color: gold !important;
+}
+
+.serv p{
+    font-size: 30px;
+    color: rgb(130, 130, 32);
+}
+.serv{
+    float: left;
+    width: 30%;
+    border: #17f7ca 7px solid;
+    border-radius: 10px;
+    margin: 10px;
+    line-height: 5px;
+    text-align: center;
+}
+
+#services{
+    padding: 2rem;
+}
+
+.gallery{
+    background-color: rgb(59, 84, 84);
+    padding: 2rem 0 2rem 0;
+}
+
+.col-6{
+    display: inline;
+}
+
+.images{
+    text-align: center;
+}
+
+.head{
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    color: floralwhite;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;    
+}
+
+.col-6 img{
+    width: 45%;
+    height: 45%;
+    padding: 0.5rem;
+}
+
+#video-bg{
+    background-color: rgb(29, 47, 47);
+}
+
+#anigh{
+    padding: 1rem 1rem 4rem 1rem;
+}
+
+#anigh h4{
+    color: rgb(173, 224, 245);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 350;
+    text-align: center;
+}
+
+#anigh iframe{
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 500px;
+    border-radius: 7px;
+}
+
+.top{
+    text-align: center;
+    background-color: rgb(32, 28, 32);
+    padding: 0.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#top{
+    font-size: 20px;
+    color: turquoise;
+    text-decoration: none;
+}
+
+.footer{
+    padding: 1.5rem 0 1rem 0;
+    float: none;
+    text-align: center;
+}
+
+.footer p{
+    margin: auto;
+    color: deepskyblue !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.contact{
+    float: right;
+    margin-top: -40px;       
+}
+
+.contact a, p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: sandybrown;
+    line-height: 5px;
+}
+
+#contact{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #e8491d;
+    line-height: 5px;
+}
+
+@media(max-width: 1400px){
+    #header img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+      
+      header a{
+        color:#ffffff;
+        text-decoration:none;
+        text-transform: uppercase;
+      }
+        
+      header #branding{
+        float: left;
+        font-size: 1rem;
+        font-family: -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+       
+      header #branding h1{
+        margin: auto;
+      }
+      
+      header nav{
+        float:right;
+        margin: auto;
+      }
+    
+    main{
+      padding: 0;
+      margin: 0;
+    } 
+
+
+   .intro{
+       padding: 1rem;
+       margin-top: 7rem;
+   }    
+   
+   #home{
+       padding-top: 0.5px;
+       overflow: hidden;
+   }
+
+    header + main{
+       padding-top: 50px;
+    }
+    
+    #home p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 100%;
+        font-weight: 550;
+        font-style: italic;
+        line-height: 20px;
+    }
+    
+    #home h2{
+        font-family: 'Spicy Rice', cursive;
+        font-size: 400%;
+    }
+    
+    #home h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 200%;
+        font-weight: 550;
+        font-style: italic;
+        line-height: 35px;
+    }
+
+    #mail{
+        float: left;
+        margin: auto;   
+    }
+    
+    #form{
+        float: right;
+        text-align: center;
+    }
+
+    .fa{
+        font-size: 5rem !important;
+        color: gold !important;
+    }
+    
+    .serv p{
+        font-size: 30px;
+        color: rgb(130, 130, 32);
+    }
+    .serv{
+        float: left;
+        width: 44%;
+        border: #17f7ca 7px solid;
+        border-radius: 10px;
+        margin: 10px;
+        line-height: 5px;
+        text-align: center;
+    }
+
+    #anigh{
+        padding: 1rem 0.5rem 4rem 0.5rem;
+    }
+    
+    #anigh iframe{
+        display: block;
+        margin: auto;
+        width: 90%;
+        height: 450px;
+        border-radius: 7px;
+    }
+    
+}
+
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li{
+      float:none;
+      text-align:center;
+      width:100%;
+    }
+  
+    main{
+        padding: 0;
+        margin-top: 0;
+      } 
+  
+  
+     .intro{
+         padding: 1rem;
+         margin-top: 9rem;
+     }    
+     
+     #home{
+         padding-top: 0.5px;
+         overflow: hidden;
+     }
+  
+      header + main{
+         padding-top: 50px;
+      }
+    
+    #home p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 100%;
+        font-weight: 550;
+        font-style: italic;
+        line-height: 20px;
+    }
+    
+    #home h2{
+        font-family: 'Spicy Rice', cursive;
+        font-size: 250%;
+    }
+    
+    #home h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 170%;
+        font-weight: 550;
+        font-style: italic;
+        line-height: 35px;
+    }
+
+    #mail{
+        float: none;
+        text-align: center;
+        margin: auto ;
+    }
+
+    #form{
+        float: none;
+        text-align: center;
+    }
+
+    .head{
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: underline;
+        color: floralwhite;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 35px;    
+    }
+    
+    .col-6{
+        display: block;
+    }
+
+    .col-6 img{
+        width: 60%;
+        height: 60%;
+        padding: 0.5rem;
+    }
+
+    .fa{
+        font-size: 35px !important;
+        color: gold !important;
+    }
+    
+    .serv p{
+        font-size: 18px;
+        color: rgb(130, 130, 32);
+    }
+
+    .serv{
+        width: 44%;
+        border: #17f7ca 2px solid;
+        border-radius: 10px;
+        margin: auto 10;
+        text-align: center;
+    }
+
+    #anigh{
+        padding: 1rem 0 4rem 0;
+    }
+    
+    #anigh iframe{
+        display: block;
+        margin: auto;
+        width: 80%;
+        height: 300px;
+        border-radius: 7px;
+    }
+
+    footer .footer,
+    footer .contact{
+        float: none;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+@media(max-width: 600px){ 
+    header{
+        padding: 0 20px 0 0;
+        margin-bottom: 2rem;
+      }
+  
+      main{
+          padding: 0;
+          margin-top: 0;
+        } 
+    
+    
+       .intro{
+           padding: 1.5rem;
+           margin-top: 7.5rem;
+       }    
+       
+       #home{
+           padding-top: 0.5px;
+           padding-bottom: 1rem;
+           overflow: hidden;
+       }
+    
+        header + main{
+           padding-top: 50px;
+        }
+         
+    #mail{
+        float: none;
+        text-align: center;
+        margin: auto ;
+    }
+
+    #form{
+        display: block;
+        text-align: center;
+    }
+    .fa{
+        font-size: 25px !important;
+        color: gold !important;
+    }
+    
+    .serv p{
+        font-size: 12px;
+        color: rgb(130, 130, 32);
+    }
+
+    .serv{
+        width: 35%;
+        border: #17f7ca 2px solid;
+        border-radius: 10px;
+        line-height: 15px;
+        margin: auto 10;
+        text-align: center;
+    }
+
+    #anigh{
+        padding: 1rem 0 4rem 0;
+    }
+    
+    #anigh iframe{
+        display: block;
+        margin: auto;
+        width: 90%;
+        height: 170px;
+        border-radius: 7px;
+    }
+}
+
+@media (max-width: 400px){
+    .intro{
+       padding: 0;
+       margin-top: 8.5rem;
+    }
+    
+      #cont a{
+          text-decoration: none;
+          font-size: 1rem;
+          color: crimson;
+          font-weight: bold;
+      }
+    
+    #home{
+        padding-top: 3rem;
+    }
+    
+    #home p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 70%;
+        font-weight: 550;
+        font-style: italic;
+        line-height: 15px;  
+    }
+    
+    #home h2{
+        font-family: 'Spicy Rice', cursive;
+        font-size: 400;
+        line-height: 40px;
+    }
+    
+    #home h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 120%;
+        font-weight: 550;
+        font-style: italic;
+        line-height: 20px;
+    }
+    
+    .serv{
+        width: 35%;
+        border: #17f7ca 2px solid;
+        border-radius: 10px;
+        line-height: 25px;
+        margin: auto 10;
+        text-align: center;
+    }
+
+    .serv p{
+        font-size: 10px;
+        color: rgb(130, 130, 32);
+        line-height: 15px;
+    }
+}
